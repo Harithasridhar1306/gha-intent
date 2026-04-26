@@ -85,7 +85,7 @@ gha-intent generate GHA.md
 Output:
 
 ```bash
-.github/workflows/generated.yml
+.github/workflows/generator.yml
 ```
 
 
