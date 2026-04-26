@@ -1,0 +1,14 @@
+name: Self Generate Pipeline
+
+on:
+  push:
+    paths:
+      - "GHA.md"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install gha-intent
+      - run: gha-intent generate GHA.md
