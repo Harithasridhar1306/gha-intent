@@ -24,3 +24,7 @@ Instead of writing verbose YAML, you describe intent:
 
 ## Test
 - command: npm test
+
+And generate a working GitHub Actions workflow:
+
+gha-intent generate GHA.md
